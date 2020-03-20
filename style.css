@@ -29,7 +29,6 @@ h2{
 }
 h1,h2{
     font-family: var(--serif-font);
-    
 }
 button:hover{
     background-color: var(--light-accent);
