@@ -1,16 +1,13 @@
-:root{
-    --light-shades: #F8F8F8;
-    --light-accent: #EAD060;
-    --main-brand-color: #2ABBE8;
-    --dark-accent:#75CFE5;
-    --dark-shades:#4BB0C9;
-    --standard-fonts: Arial, Helvetica, sans-serif;
-    --serif-font: Garamond, Georgia, Lucida-Bright, serif;
-}
 *{
     margin: 10px;
     padding: 0px;
     font-family: var(--standard-fonts);
+}
+:root{
+    --light-shades: #93A9F5;
+    --main-brand-color: #0A0524;
+    --standard-fonts: Arial, Helvetica, sans-serif;
+    --serif-font: Garamond, Georgia, serif;
 }
 header{
     padding-top: 20px;
