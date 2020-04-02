@@ -68,7 +68,7 @@ footer{
     width: 2rem;
 }
 
-#NavBarMobile{
+#NavMobile{
     background-color: var(--main-brand-color);
     border-style: solid;
     text-align: center;
@@ -78,19 +78,32 @@ footer{
     border-style: solid;
     font-family: Arial, Helvetica, sans-serif;
 }
-#NavbarPC{
+#NavPC{
     display: none;
 } 
 #hamburger-menu-button{
     margin:20px;
 }
-#NavBarMobile{
+#NavMobile{
     margin: 20px;
     padding-left: 25px;
     font-family:Arial, Helvetica, sans-serif;
     display:none;
     grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
 }
+
+a {
+    display: block;
+    padding: 1rem;
+    background-color: gray;
+    border: 2px black solid;
+}
+
+a.om-max:hover{
+    background-color:cyan;
+}
+
+/* --------------------- MEDIA QUERIES--------------------------------------------------*/
 @media only screen and (min-width: 600px) {
 
     body{
@@ -121,14 +134,14 @@ footer{
         font-size: 15px;
         line-height: 0.5;
     } 
-    #NavbarPC {
+    #NavPC {
         list-style: none;
         background-color: var(--main-brand-color); /*erwrhwrgwr*/
         text-align: center;
         display:grid;
         grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
     }
-    #NavBarMobile{   
+    #hamburger{   
         display: none;
     }
     #hamburger-menu-button{

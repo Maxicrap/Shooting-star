@@ -2,13 +2,13 @@ let hamburgerOpen = false;
 
 const hamburgerButton = document.getElementById("hamburger");
 hamburgerButton.addEventListener("click", toggleHamburgerMenu);
-const NavBarMobile = document.getElementById("NavBarMobile");
+const NavMobile = document.getElementById("NavMobile");
 
 function toggleHamburgerMenu() {
     hamburgerOpen = !hamburgerOpen;
     if (hamburgerOpen) {
-        NavBarMobile.style.display = "grid";
+        NavMobile.style.display = "grid";
     } else {
-        NavBarMobile.style.display = "none";
+        NavMobile.style.display = "none";
     }
 }
